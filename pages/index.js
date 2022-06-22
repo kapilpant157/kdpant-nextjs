@@ -1,14 +1,13 @@
 import Head from 'next/head'
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Aboutme from './components/AboutMe'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Navbar from './components/Navbar/Navbar'
-import Navbartwo from './components/Navbar/Navbartwo'
-import Myteam from './components/Team/Myteam'
-import Works from './components/Works'
+import Aboutme from '../components/AboutMe'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Navbar from '../components/Navbar/Navbar'
+import Myteam from '../components/Team/Myteam'
+import Works from '../components/Works'
 
 export default function Home() {
   return (
@@ -26,7 +25,6 @@ export default function Home() {
       <Contact/>
       <Footer/>
       <Navbar/>
-      <Navbartwo/>
       </div>
     </>
   )

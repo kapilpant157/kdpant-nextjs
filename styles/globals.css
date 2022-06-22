@@ -335,12 +335,11 @@ textarea:hover {
 
 /* Footer */
 
-footer {
+.footer {
   font-family: "Kalam";
   text-align: center;
   font-size: 25px;
 }
-
 
 
 
