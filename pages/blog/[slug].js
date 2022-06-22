@@ -1,5 +1,5 @@
 import React from 'react';
-// import Image from 'next/image';
+import Image from 'next/image';
 import Bloglist from '../../components/Bloglist';
 import {useRouter} from 'next/router';
 import Navbartwo from '../../components/Navbar/Navbartwo';
@@ -23,8 +23,7 @@ const Blogdetail = () => {
     <div className='home'>
     <div className="singlePost" key={blog.id}>
     <div className="singlePostWrapper">
-    {/* <Image src={blog.image} alt={blog.alter} height={550} width={920}/> */}
-    {blog.Heading}
+    <Image src={blog.image} alt={blog.alter} height={550} width={920}/>
       <h1 className="singlePostTitle">
         {blog.Heading}
         <div className="singlePostEdit">
@@ -44,35 +43,7 @@ const Blogdetail = () => {
       </div>
       <p className="singlePostDesc">
         {blog.description}
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
-        quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
-        Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
-        eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-        error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
-        impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
-        odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-        a odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-        a odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-        a odit modi eos!
-        <br />
-        <br />
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
-        quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
-        Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
-        eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-        error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
-        impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
-        odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-        a odit modi eos! Lorem, ipsum dolor sit amet consectetur.
-      </p>
+        </p>
     </div>
   </div>
     <Sidebar/>
