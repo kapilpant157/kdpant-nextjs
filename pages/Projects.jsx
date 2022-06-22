@@ -137,7 +137,7 @@ function Projects() {
         {filteredImages.map((image) => (
           <div className="dupli-row" key={image.id}>
             <div className="portfolio-item">
-              <a className="portfolio-link" href={image.id}  target="_blank" rel="noopener noreferrer">
+              <a className="portfolio-link" href={image.id} >
                 <Image className="imge-fluid" src={image.imageName} alt="asd" height={275} width={300} ></Image>
               </a>
               <div className="portfolio-caption">
