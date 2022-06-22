@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Bloglist from '../../components/Bloglist';
 import {useRouter} from 'next/router';
 import Navbartwo from '../../components/Navbar/Navbartwo';
@@ -16,15 +16,15 @@ const Blogdetail = () => {
       
     }
     ); 
-
+   
     return (
     <>
     <Navbartwo/>
     <div className='home'>
     <div className="singlePost" key={blog.id}>
     <div className="singlePostWrapper">
-    <Image src={blog.images} alt={blog.alter} height={550} width={920}/>
-    {blog.heading}
+    {/* <Image src={blog.image} alt={blog.alter} height={550} width={920}/> */}
+    {blog.Heading}
       <h1 className="singlePostTitle">
         {blog.Heading}
         <div className="singlePostEdit">
@@ -39,6 +39,7 @@ const Blogdetail = () => {
             {blog.author}
         </b>
         </span>
+        <span>{blog.category}</span>
         <span>{blog.date}</span>
       </div>
       <p className="singlePostDesc">
