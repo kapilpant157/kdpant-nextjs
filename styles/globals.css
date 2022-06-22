@@ -343,6 +343,97 @@ textarea:hover {
 
 
 
+/* Projects */
+.services_ {
+  margin-top: 50px;
+}
+
+.TagButton {
+  background-color: aqua;
+}
+
+.tags {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: #eee;
+  margin: 0px 10px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.activetags {
+  border-radius: 5px;
+  background-color: #312c2c;
+}
+.container {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.image-card {
+  padding: 10px;
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+}
+.image {
+  width: 100%;
+  height: 80%;
+}
+
+
+.dupli-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  border-radius: 5%;
+  text-align: center;
+  background-color: var(--color-bg);
+  display: block;
+  margin: 25px auto;
+  transition: 0.5s ease;
+}
+
+.portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.portfolio-link .imge-fluid {
+  border-radius: 5%;
+}
+
+.portfolio-item:hover {
+  transition: 0.5s ease;
+  transform: scale(1.01);
+  box-shadow: 0 30px 40px -15px var(--color-primary-variant);
+}
+
+.portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+}
+.portfolio-caption p {
+  margin: 15px;
+}
+
+
+
 @media only screen and (max-width: 550px) {
   .navbartwo a {
     font-size: 12px;
