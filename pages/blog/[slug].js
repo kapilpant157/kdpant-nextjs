@@ -23,7 +23,7 @@ const Blogdetail = () => {
     <div className='home'>
     <div className="singlePost" key={blog.id}>
     <div className="singlePostWrapper">
-    <Image src={blog.image} alt={blog.alter} height={550} width={920}/>
+    <Image src="/shivapuri.jpg" alt={blog.alter} height={550} width={920}/>
       <h1 className="singlePostTitle">
         {blog.Heading}
         <div className="singlePostEdit">
