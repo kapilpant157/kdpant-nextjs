@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Aboutme from './components/AboutMe'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Navbar from './components/Navbar/Navbar'
 import Navbartwo from './components/Navbar/Navbartwo'
@@ -23,6 +24,7 @@ export default function Home() {
       <Works/>
       <Myteam/>
       <Contact/>
+      <Footer/>
       <Navbar/>
       <Navbartwo/>
       </div>
