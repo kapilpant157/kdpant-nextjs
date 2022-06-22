@@ -1,7 +1,7 @@
 const Teamlist = [
     {
         id: 1,
-        image: "/ran-7.jpg",
+        image: "/Team-kapil.jpg",
         alt:"Kapil Dev Pant",
         name:"Kapil Dev Pant",
         description: "Graphic designer",

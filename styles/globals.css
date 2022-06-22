@@ -180,19 +180,14 @@ h3 {
   color: var(--color-light);
 }
 .contact-container {
-  margin-top: 60px;
-  margin-bottom: 5em;
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
 /* Works */
-/* .work_container {
-  display: flex;
-  margin-top: 5%;
-  justify-content: space-between;
-} */
+
 .work {
   flex-basis: 31%;
   /* padding: 20px 12px; */
@@ -203,8 +198,9 @@ h3 {
 
 /* Team */
 
-.work_container, .team_container {
+.work_container, .team_container{
   display: flex;
+  flex-direction: row;
   margin-top: 5%;
   justify-content: space-between;
 }
@@ -229,7 +225,113 @@ h3 {
 }
 
 
+/* Contact */
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 40px;
+}
+.contact-left {
+  position: relative;
+}
+.contact-left h5 {
+  margin-top: 20px;
+}
+.contact-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-left p {
+  font-size: 50px;
+  transform: rotate(-8deg);
+}
 
+.contact-form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  box-shadow: var(--color-light);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.contact-form:hover {
+  transition: 0.5s ease;
+  transform: scale(1.02);
+  box-shadow: 0 30px 40px -15px var(--color-primary-variant);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  font-size: 18px;
+  margin: 10px;
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 10px;
+  background-color: #242424;
+  color: rgb(249, 249, 249);
+}
+input:hover {
+  background-color: #171717;
+}
+
+textarea {
+  font-size: 18px;
+  width: 350px;
+  height: 100px;
+  padding-left: 15px;
+  border-radius: 5px;
+  background-color: #242424;
+  padding-top: 10px;
+  color: rgb(249, 249, 249);
+}
+textarea:hover {
+  background-color: #171717;
+}
+.submit {
+  margin: 10px;
+  cursor: pointer;
+  background-color: #171717;
+  border: 2px solid #171717;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  color: rgb(249, 249, 249);
+}
+.submit:hover {
+  animation-name: hovereffect;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+}
+@keyframes hovereffect {
+  0% {
+    border-bottom: 2px solid white;
+  }
+  25% {
+    border-right: 2px solid white;
+  }
+  50% {
+    border-top: 2px solid white;
+  }
+  75% {
+    border-left: 2px solid white;
+  }
+
+  100% {
+    border-bottom: 2px solid white;
+  }
+}
 
 
 @media only screen and (max-width: 550px) {
