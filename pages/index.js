@@ -5,6 +5,7 @@ import Aboutme from './components/AboutMe'
 import Header from './components/Header'
 import Navbar from './components/Navbar/Navbar'
 import Navbartwo from './components/Navbar/Navbartwo'
+import Works from './components/Works'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Aboutme/>
+      <Works/>
       <Navbar/>
       <Navbartwo/>
       </div>

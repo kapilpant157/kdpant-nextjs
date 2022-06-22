@@ -116,7 +116,7 @@ nav a {
 /* Header */
 header {
   /* height: 100vh; */
-  /* width: 100vw; */
+  width: auto;
   /* border: 2px solid red; */
   background-position: center;
   position: relative;
@@ -132,8 +132,8 @@ header {
 }
 .bg-image {
   height: 100vh;
-  /* width: 100vw; */
-  border: 2px solid brown;
+  width: auto;
+  /* border: 2px solid brown; */
   background-position: center;
   background-size: cover;
   background-image: url(/kapil.png);
@@ -148,7 +148,7 @@ header {
 
 /* Aboutme */
 section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 5rem;
   text-align: center;
   margin: auto;
@@ -182,6 +182,27 @@ h3 {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/* Works */
+.work_container {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.work {
+  flex-basis: 31%;
+  /* padding: 20px 12px; */
+  margin-bottom: 5%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 550px) {
   .navbartwo a {
