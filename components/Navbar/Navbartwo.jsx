@@ -8,7 +8,7 @@ const Navbartwo = () => {
         <Link href="/Projects">
           <a>Projects</a>
         </Link>
-        <Link href="/gallery">
+        <Link href="/Gallery">
           <a>Gallery</a>
         </Link>
         <Link href="/Blogs">
