@@ -46,7 +46,7 @@ const Blogs = () => {
                     <small>{date}</small>
                   </div>
                   <div className="blogs-post">
-                   <Link href={`blog/${slug}`} >
+                   <Link href={`/blog/${slug}`} >
                    <a>
                       Read More...
                     </a></Link>
