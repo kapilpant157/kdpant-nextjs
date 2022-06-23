@@ -62,36 +62,7 @@ const images = [
     caption:
       "ON Sale!!! ON Sale!!! ON Sale!!! , project is suitable for Construction company, Build on Reactjs makes it super fast and fully responsice. If interested in buying in affordable price, you know what to do, just send a message. ",
     link: "https://youtu.be/f3Qv4qa1w0A",
-  },
-  {
-    id: 4,
-    imageName: "/tgn.jpg",
-    tag: "Completed Projects",
-    title: "Travel Green Nepal",
-    type: "Travelling",
-    caption:
-      "Taking various travelling spots in nepal, TGN is established in order to probide informaton about tourism potential places in Nepal. we soon are planning on organizing events for booking and exploring various parts of NEPAL",
-    link: "https://travelgreennepal.com",
-  },
-  {
-    id: 5,
-    imageName: "/kapildevpant-com-np.jpg",
-    tag: "Completed Projects",
-    title: "Map of Nepal",
-    type: "Districts",
-    caption: "Personal Domain listing all districts of nepal",
-    link: "https://kapildevpant.com.np",
-  },
-  {
-    id: 6,
-    imageName: "/construction.jpg",
-    tag: "Completed Projects",
-    title: "Construction Company",
-    type: "Construction",
-    caption:
-      "ON Sale!!! ON Sale!!! ON Sale!!! , project is suitable for Construction company, Build on Reactjs makes it super fast and fully responsice. If interested in buying in affordable price, you know what to do, just send a message. ",
-    link: "https://youtu.be/f3Qv4qa1w0A",
-  },
+  }
 ];
 
 function Projects() {
@@ -137,7 +108,7 @@ function Projects() {
         {filteredImages.map((image) => (
           <div className="dupli-row" key={image.id}>
             <div className="portfolio-item">
-              <a className="portfolio-link" href={image.id} >
+              <a className="portfolio-link" href={image.link} >
                 <Image className="imge-fluid" src={image.imageName} alt="asd" height={275} width={300} ></Image>
               </a>
               <div className="portfolio-caption">
