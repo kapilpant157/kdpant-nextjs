@@ -686,6 +686,10 @@ a {
 .rightSide{
   display: none;
 }
+.cta{
+  flex-direction: column;
+
+}
 .work_container, .team_container{
   flex-direction: column;
   justify-items: center;
