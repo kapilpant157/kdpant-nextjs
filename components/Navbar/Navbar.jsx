@@ -28,7 +28,7 @@ const Navbar = () => {
       <Link href="/Blogs">
         <a>Blogs</a>
       </Link>
-      <Link href="/gallery">
+      <Link href="/Gallery">
         <a>Photo</a>
       </Link>
       <Link href="/Projects">

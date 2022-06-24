@@ -55,10 +55,13 @@
 
 
 import React from 'react'
+import Navbartwo from '../components/Navbar/Navbartwo'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <>
+    <Navbartwo/>
+    </>
   )
 }
 
