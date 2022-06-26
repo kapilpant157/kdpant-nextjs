@@ -1,19 +1,23 @@
 import React from 'react'
 import Image from 'next/image';
+import {useRouter} from 'next/router';
 import Bloglist from "./Bloglist";
 import { useState } from "react";
 
 const Singleblog = () => {
     const [items] = useState(Bloglist);
-    // const router = useRouter();
-    // const slug = router.query.slug;
-    // const blog = Bloglist.find(function (a) {
-    //   return a.slug == slug;
-    // });
+    const router = useRouter();
+    const slug = router.query.slug;
+    const elem = Bloglist.find(function (a) {
+      return a.slug == slug;
+    });
+    if(!elem){
+      return "No blog found";
+    }
   return (
 
     <div className="singlePost" >
-          {items.map((elem) => {
+          {/* {items.map((elem) => {
           const {
             category,
             Heading,
@@ -26,11 +30,11 @@ const Singleblog = () => {
             description,
             // slug,
           } = elem;
-          return (
+          return ( */}
     <div className="singlePostWrapper" key={elem.id}>
-    <Image src={image} alt={alter} height={550} width={920}/>
+    <Image src={elem.image} alt={elem.alter} height={550} width={920}/>
       <h1 className="singlePostTitle">
-        {Heading}
+        {elem.Heading}
         <div className="singlePostEdit">
           <i className="singlePostIcon far fa-edit"></i>
           <i className="singlePostIcon far fa-trash-alt"></i>
@@ -40,18 +44,18 @@ const Singleblog = () => {
         <span>
           Author:
           <b className="singlePostAuthor">
-            {author}
+            {elem.author}
         </b>
         </span>
-        <span>{category}</span>
-        <span>{date}</span>
+        <span>{elem.category}</span>
+        <span>{elem.date}</span>
       </div>
       <p className="singlePostDesc">
-        {description}
+        {elem.description}
         </p>
     </div>
-          )
-          })}
+          {/* )
+          })} */}
   </div>
  
   )

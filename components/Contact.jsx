@@ -10,7 +10,12 @@ function Contact(props) {
       </div>
       <div className="contact-container">
         <div className="contact-left">
-          <Image src="/contact.png" alt="contact-kapildevpant" height={450} width={450}></Image>
+          <Image
+            src="/contact.png"
+            alt="contact-kapildevpant"
+            height={450}
+            width={450}
+          ></Image>
           <div className="contact-info">
             <p>Don&apos;t let </p>
             <p>Idea stuck</p>
@@ -21,18 +26,44 @@ function Contact(props) {
         <div className="right">
           <div className="contact-form">
             <h2>Your Idea</h2>
-            <form className="form">
-              <input type="text" id="contact-form-name" placeholder="Name" />
-              <input type="phone" placeholder="Phone number" />
-              <input type="email" placeholder="Email" />
-              <textarea
-                className="textfield"
-                rows="5"
-                cols="50"
-                placeholder="Message"
-              />
-              <button className="submit">Send</button>
-            </form>
+            <div className="con-container">
+              <form>
+                <div className="con-row">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name.."
+                  />
+                </div>
+                <div className="con-row">
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your email.."
+                  />
+                </div>
+                <div className="con-row">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Your email.."
+                  />
+                </div>
+                <div className="con-row">
+                  <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Write something.."
+                  ></textarea>
+                </div>
+                <div className="con-row">
+                  <input className="submit" type="submit" value="Submit" />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

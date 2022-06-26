@@ -9,8 +9,10 @@ import {AiFillInstagram} from 'react-icons/ai'
 const Navbar = () => {
   return (
     <nav>
+      <div className=" atrapezoid">
       <a href="#"><h1>Kapil.</h1>
 </a>
+      </div>
 <div className='links'>
     <div className="leftFloat">
       <Link href="https://dribbble.com/kapilpant157" target="_blank" >
@@ -26,13 +28,13 @@ const Navbar = () => {
       
       <div className="rightFloat">
       <Link href="/Blogs">
-        <a>Blogs</a>
+        <a>..B..</a>
       </Link>
       <Link href="/Gallery">
-        <a>Photo</a>
+        <a>..G..</a>
       </Link>
       <Link href="/Projects">
-        <a>Works</a>
+        <a>..P..</a>
       </Link>
       </div>
       </div>
