@@ -15,7 +15,7 @@ const Header = () => {
         <h5>I&apos;m Graphic Designer, Web Designer, UX/UI Designer</h5>
         
         <div className="cta">
-        <a href="https://drive.google.com/file/d/1RqsQ5JUHcGDwsfTI_7w84TNmipVxZcDm/view?usp=sharing" download className='btn'>Download Cv</a>
+        <a href="./cv.pdf" download className='btn'>Download CV</a>
         <a href="#contact" className='btn'>Message me </a>
       </div>
       </div>
