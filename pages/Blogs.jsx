@@ -4,13 +4,16 @@ import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
 import Sidebar from '../components/Sidebar'
+import Horizontalslide from "../components/Horizontalslide";
 
 const Blogs = () => {
   const [items] = useState(Bloglist);
 
   return (
     <>
+      <Horizontalslide/>
     <div className="home">
+      
       <div className="blogs-container">
         {items.map((elem) => {
           const {
@@ -26,9 +29,13 @@ const Blogs = () => {
             slug,
           } = elem;
           return (
+
+
+
+            
             <div className="blogs-card" key={elem.id}>
               <div className="blogs-card-header">
-                <Image src={image} alt={alter} height={210} width={320}></Image>
+                <Image  src={image} alt={alter} height={310} width={480}></Image>
               </div>
               <div className="blogs-card-body">
                 <span className="blogs-tag">{category}</span>

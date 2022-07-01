@@ -7,7 +7,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <Image src="/gump.jpg" alt="asdasd" height={200} width={250}></Image>
+        <Image src="/swyambhu.png" alt="Kapil Dev Pant" height={200} width={250}></Image>
         <p>
           Words are merely insufficient expressing the depth of emotions. So it
           is a place where i try to find some words that can describe how
@@ -19,32 +19,32 @@ const Sidebar = () => {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Coding</a>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Health</a>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Travel</a>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Drawing</a>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Random</a>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link href="/Blogs">
-              <a>Blogs</a>
+              <a>Cyber Security</a>
             </Link>
           </li>
         </ul>
