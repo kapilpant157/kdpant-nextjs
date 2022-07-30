@@ -50,9 +50,40 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
-       
+        <ul className="sidebarList">
+          <li className="sidebarListItem">
+            <Link href="https://www.facebook.com/kapilpant157">
+              <a>Facebook</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.linkedin.com/kapilpant157">
+              <a>Linkedin</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.instagram.com/kapilpant157">
+              <a>Instagram</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.tiktok.com/kapilpant157">
+              <a>TikTok</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.dribble.com/kapilpant157">
+              <a>Dribble</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.twitter.com/@kapilpant12">
+              <a>Twitter</a>
+            </Link>
+          </li>
+        </ul>
         </div>
       </div>
     </div>

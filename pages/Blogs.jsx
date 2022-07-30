@@ -4,14 +4,12 @@ import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
 import Sidebar from '../components/Sidebar'
-import Horizontalslide from "../components/Horizontalslide";
 
 const Blogs = () => {
   const [items] = useState(Bloglist);
 
   return (
     <>
-      <Horizontalslide/>
     <div className="home">
       
       <div className="blogs-container">
@@ -30,9 +28,6 @@ const Blogs = () => {
           } = elem;
           return (
 
-
-
-            
             <div className="blogs-card" key={elem.id}>
               <div className="blogs-card-header">
                 <Image  src={image} alt={alter} height={310} width={480}></Image>
