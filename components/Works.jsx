@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Works = () => {
   return (
-    <section    >
+    <section className="works"   >
      <div className="topic">
       <h3>How do I serve </h3>
       <h2>You?</h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Contact(props) {
   return (
-    <section>
+    <section className="contact">
       <div className="topic">
         <h3>Share your </h3>
         <h2>Awesome Idea !!</h2>

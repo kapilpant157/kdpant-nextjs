@@ -5,7 +5,7 @@ import Image from "next/image";
 const Myteam = () => {
   const [items] = useState(Teamlist);
   return (
-    <section>
+    <section className="myteam">
       <div className="topic">
       <h3>Who are in </h3>
       <h2>My Team ?</h2>

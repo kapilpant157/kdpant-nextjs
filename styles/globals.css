@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: "Kalam", cursive;
+  /* font-family: "Kalam", cursive; */
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.1;
@@ -40,22 +40,22 @@ a {
   --color-bg-variant: #57579b;
   --color-primary: #ff0000;
   --color-primary-variant: #266330;
-  --color-white: #d5f3cb;
-  --color-light: #cbf4a4;
+  --color-white: #e7ffdf;
+  --color-light: #f8f8f8;
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-mg: 85%;
   --container-width-sm: 90%;
 }
 
-section {
-  /* border: 2px solid red; */
+/* section {
+  border: 2px solid red;
   padding-top: 5rem;
   text-align: center;
   margin: auto;
   width: 90%;
   height: auto;
-}
+} */
 
 .btn {
   width: max-content;
@@ -163,38 +163,67 @@ nav a {
 }
 
 .navbartwo a:hover {
-  box-shadow: 0px 0px 3px 5px #ffd781;
+  box-shadow: 0px 0px 70px 5px #ffd781;
   color: var(--color-white);
   border-radius: 50px;
 }
 
 /* Header */
 header {
-  /* height: 100vh; */
+  height: 100vh;
   width: auto;
   /* border: 2px solid red; */
-  background-position: center;
   position: relative;
 }
 
+.aboutme {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.contact{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.myteam{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.works{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  
+}
+.footers{
+  padding-top: 5rem;
+
+}
+
+section {
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+
 .header_container {
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
+  position: absolute;
+  top: 50%;
+margin-left: 10%;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
   /* border: 2px solid green;  */
-  width: auto;
   text-align: center;
 }
 
 .bg-image {
-  /* height: 100vh; */
-  /* width: auto; */
-  /* border: 2px solid brown; */
+  
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid rgb(245, 211, 211); */
   /* background-position: center; */
-  /* background-size: cover; */
+  background-size: cover;
   background-image: url(/kapil.png);
-  filter: blur(2px);
 }
 
 .cta {
@@ -219,8 +248,7 @@ header {
 .topic h2,
 h3 {
   text-align: center;
-  font-family: "Kalam";
-  color: red;
+  color: var(--color-light);
   font-size: 35px;
 }
 

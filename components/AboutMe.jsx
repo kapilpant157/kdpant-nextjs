@@ -4,7 +4,8 @@ import Image from "next/image";
 
 const Aboutme = () => {
   return (
-    <section>
+    <section className='aboutme'>
+    
       <div className="topic">
         <h3>Get to know </h3>
         <h2>About Me !</h2>
