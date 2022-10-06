@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import styles from "../Navbar/Navbar.module.css"
+
 
 const Navbartwo = () => {
   return (
-    <nav className="navbartwo">
-      <div className="trapezoid">
+    <nav className={styles.navbartwo}>
+      <div className={styles.trapezoid}>
         <Link href="/Projects">
           <a>Projects</a>
         </Link>
@@ -15,7 +17,7 @@ const Navbartwo = () => {
           <a>Blogs</a>
         </Link>
         <Link href="/">
-          <a>Kapil.</a>
+          <a>Kapil</a>
         </Link>
       </div>
     </nav>

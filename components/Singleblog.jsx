@@ -53,6 +53,9 @@ const Singleblog = () => {
       <p className="singlePostDesc">
         {elem.description}
         </p>
+        <p className="singlePostDesc">
+        {elem.descriptions}
+        </p>
     </div>
           {/* )
           })} */}

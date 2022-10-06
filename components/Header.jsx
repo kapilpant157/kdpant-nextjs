@@ -1,27 +1,28 @@
 import React from 'react'
+import styles from '../styles/Home.module.css'
 const Header = () => {
   
   return (
-    <header>
-    <section id='header'>
+    <>
+    <div className={styles.header}>
       
-      <div className="bg-image">
+      <div className={styles.bg}>
           
         </div>
-      <div className="header header_container">
+      <div className={styles.container}>
         
-        <h5>WELCOME ! </h5>
+        <h5>Hello, I am </h5>
         <h1>KAPIL DEV PANT</h1>
-        <h5>I&apos;m Graphic Designer, Web Designer, UX/UI Designer</h5>
+        <h6>Graphic Designer, Web(Designer, Developer), UX/UI Designer, Sportsman (Basketball, Table Tennis, Football, Cricket) drawing enthusiastic and counting </h6>
         
-        <div className="cta">
-        <a href="./cv.pdf" download className='btn'>Download CV</a>
-        <a href="#contact" className='btn'>Message me </a>
+        <div className={styles.cta}>
+        <a href="./cv.pdf" download className={styles.btn}>Download CV</a>
+        <a href="#contact" className={styles.btn}>Message me </a>
       </div>
       </div>
       
-    </section>
-    </header>
+    </div>
+    </>
   )
 }
 

@@ -14,11 +14,12 @@ const Aboutme = () => {
         <div className="left">
           <div className="contact-form">
             <h2> Know me better</h2>
+            
           </div>
         </div>
         <div className="rightSide">
           <Image
-            src="/kapill.png"
+            src="/Ghuntu.png"
             alt="Kapil Dev Pant"
             height={500}
             width={400}

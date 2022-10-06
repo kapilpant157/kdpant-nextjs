@@ -3,18 +3,17 @@ import Link from 'next/link'
 import {AiFillDribbbleCircle} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
-// import styles from '../styles/Home.module.css'
+import styles from '../Navbar/Navbar.module.css'
 
 
 const Navbar = () => {
   return (
     <nav>
-      <div className=" atrapezoid">
-      <a href="#"><h1>Kapil.</h1>
-</a>
+      <div className="atrapezoid">
+      <a href="#"><h1>Kapil.</h1></a>
       </div>
-<div className='links'>
-    <div className="leftFloat">
+<div className={styles.links}>
+    <div className={styles.leftFloat}>
       <Link href="https://dribbble.com/kapilpant157" target="_blank" >
        <a> <AiFillDribbbleCircle/></a>
       </Link>
@@ -26,15 +25,15 @@ const Navbar = () => {
       </Link>
       </div>
       
-      <div className="rightFloat">
+      <div className={styles.rightFloat}>
       <Link href="/Blogs">
-        <a>..B..</a>
+        <a>.B.</a>
       </Link>
       <Link href="/Gallery">
-        <a>..G..</a>
+        <a>.G.</a>
       </Link>
       <Link href="/Projects">
-        <a>..P..</a>
+        <a>.P.</a>
       </Link>
       </div>
       </div>

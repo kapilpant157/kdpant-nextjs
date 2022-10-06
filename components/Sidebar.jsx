@@ -11,7 +11,7 @@ const Sidebar = () => {
         <p>
           Words are merely insufficient expressing the depth of emotions. So it
           is a place where i try to find some words that can describe how
-          unworthy i am in this everlasting time.
+          unworthy i am in this everlasting time. Emotional parts are supposed to be either ignored or taken as joke. They are not intended to hurt others.
         </p>
       </div>
       <div className="sidebarItem">
@@ -81,6 +81,11 @@ const Sidebar = () => {
           <li className="sidebarListItem">
             <Link href="https://www.twitter.com/@kapilpant12">
               <a>Twitter</a>
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link href="https://www.youtube.com/channel/UCFngHog9EfMsBQ_l2liXQ2g">
+              <a>Youtube</a>
             </Link>
           </li>
         </ul>
