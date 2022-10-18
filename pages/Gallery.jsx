@@ -15,7 +15,7 @@ const Gallery = () => {
         <link rel="icon" href="/sign.ico" />
       </Head>
       <div className={styles.header}>
-        <h1>Take nothing but Photoes || Leave nothing but footprints</h1>
+        <h1>Take nothing but Photoes Leave nothing but footprints</h1>
       </div>
       <div className={styles.wrapper}>
       {items.map((elem) => {
