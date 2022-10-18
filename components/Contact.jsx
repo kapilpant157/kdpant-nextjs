@@ -35,7 +35,7 @@ function Contact(props) {
             <h2>Your Idea</h2>
             <div className={styles.container}>
               <div className={styles.icon}>
-              <Image src="/blue.png"  height={80} width={80} alt="jkh" />
+              <Image src="/blue.png"  height={81} width={80} alt="jkh" />
               <div className={styles.span}><FaTwitter/></div>
               </div>
               <div className={styles.icon}>
