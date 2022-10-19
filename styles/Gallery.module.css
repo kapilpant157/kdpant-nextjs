@@ -64,13 +64,13 @@
 } 
 @media only screen and (max-width: 600px) {
     .header {
-      background-color: lightblue;
-      margin-top: 15%;
+      /* background-color: lightblue; */
+      margin-top: 20%;
     }
     .parent{
         width: 100%;
-        margin: 2px;
-        height: 200px;
+        margin: 1px;
+        height: 170px;
         position: relative;
         display: inline-block;
         cursor: progress;

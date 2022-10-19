@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar';
 import styles from '../styles/Blogs.module.css'
 import {AiTwotoneCalendar} from 'react-icons/ai'
 
@@ -12,6 +12,7 @@ const Blogs = () => {
 
   return (
     <>
+    <Navbartwo />
       <div className={styles.home}>
 
         <div className={styles.container}>
@@ -22,11 +23,11 @@ const Blogs = () => {
             return (
 
               <div className={styles.card} key={elem.id}>
-                <div className="blogs-card-header">
+                <div className={styles.header}>
                   <Image src={image} alt={alter} height={310} width={480}></Image>
                 </div>
                 <div className={styles.body}>
-                  <div className="row"><a> <AiTwotoneCalendar/></a>
+                  <div className={styles.row}><a> <AiTwotoneCalendar/></a>
                     <small>{date}</small>
                     <span className={styles.tag}> {category}</span></div>
                   <h4>{Heading}</h4>
@@ -56,10 +57,11 @@ const Blogs = () => {
             );
           })}
         </div>
+        <div className={styles.sidebar}>
         <Sidebar />
-      </div>
+        </div>
 
-      <Navbartwo />
+      </div>
     </>
   );
 };

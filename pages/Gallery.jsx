@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Navbartwo from '../components/Navbar/Navbartwo'
-import styles from '../styles/Gallery.module.css'
+import Navbartwo from '../components/Navbar/Navbartwo';
+import styles from '../styles/Gallery.module.css';
 import Gallerylist from "../components/gallerylist";
 const Gallery = () => {
   const [items] = useState(Gallerylist);
@@ -31,7 +31,7 @@ const Gallery = () => {
       })}
       </div> 
 
-      <Navbartwo />
+      <Navbartwo/>
     </>
   )
 }
