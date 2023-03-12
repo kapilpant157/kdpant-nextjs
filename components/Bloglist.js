@@ -9,21 +9,20 @@ const Bloglist = [
         author: "Kapil Dev Pant", 
         date:  "march 2", 
         meta: "This is what I made as my first website. back in 2016", 
-        description:"Story behind How I made it. It might not be highend plan but is somewhat like a begining of coding.",
+        description:"These are random post just for checking and before deploy ment , these are not updated so dont waste time reading these blogs. Story behind How I made it. It might not be highend plan but is somewhat like a begining of coding.",
         descriptions: "This was what I did back in 2016, in name of website development. Being part of class work. I integrated all the components learned in class into a single component. And finally end up as my first semi completed site. Which however remained un upublish till the date. It was coded using hust html and css. No js partes were introduced, but once particle js was added but looked to advanced so had to remove it.",
         slug:"how-did-i-first-started-my-coding"
     },
     {
         id: 2,
-        category: "Trekking", 
+        category: "Trekk", 
         Heading:"How we lost in Shivapuri National Park?", 
         image: "/shivapuri.jpg",
-        alter:"first blog", 
-        author_image: "/gump.jpg", 
+        alter:"first blog",
         author: "Kapil pant", 
-        date:  "march 5", 
+        date:  "march 5",
         meta: "Shivapuri national park is one of the famous destination for people around kathmandu valley.", 
-        description: " Shivapuri National Park is one of many National Parks in Nepal.",
+        description: "These are random post just for checking and before deploy ment , these are not updated so dont waste time reading these blogs. Shivapuri National Park is one of many National Parks in Nepal.",
         descriptions:"alksjd",
         slug:"a-day-hike-to-shivapuri-National-park"
     },{
