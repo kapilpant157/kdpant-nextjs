@@ -5,8 +5,8 @@ const Works = () => {
   return (
     <section className="works"   >
      <div className="topic">
-      <h3>How do I serve </h3>
-      <h2>You?</h2>
+      <h3>.Lets be collaborative.</h3>
+      <h5 >And be the reason for change </h5>
       </div>
       <div className="work_container">
         <div className="work">
