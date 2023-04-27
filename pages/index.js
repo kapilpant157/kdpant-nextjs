@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/sign.ico" />
       </Head>
       {/*<Header/>*/}
-      <Aboutme/>
+      {/*<Aboutme/>*/}
       <Works/>
       {/*<Myteam/>*/}
      {/* <Contact/>*/}
