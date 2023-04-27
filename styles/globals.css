@@ -303,7 +303,9 @@ a {
 
 
 .sidebar {
-  flex: 3;
+  float: right;
+  width: 20%;
+  /* flex: 2; */
   height: fit-content;
   margin: 20px;
   padding-bottom: 30px;
@@ -311,8 +313,11 @@ a {
   border-radius: 10px;
   /* display: flex; */
   /* flex-direction: column; */
-  align-items: center;
+  /* align-items: center; */
 }
+
+
+
 
 .sidebarItem {
   display: flex;

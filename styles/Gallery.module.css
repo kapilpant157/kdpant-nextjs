@@ -10,6 +10,7 @@
     text-align: center;
 	margin:50px auto;
 }
+
 .parent {
     width: 45%;
     margin: 20px;
@@ -75,4 +76,6 @@
         display: inline-block;
         cursor: progress;
     }
+    
+    
   }
