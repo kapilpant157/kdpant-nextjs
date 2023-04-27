@@ -23,7 +23,7 @@ export default function Home() {
       {/*<Aboutme/> */}
       <Works/>
       <Myteam/>
-       <Contact/>
+      <Contact/>
       <Footer/>
       <Navbar/>
       </div>
