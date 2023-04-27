@@ -1,14 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import styles from '../styles/Works.module.css';
+
 
 const Works = () => {
   return (
-    <section className="works"   >
+    <section className={styles.works}   >
      <div className="topic">
       <h3>.Lets be collaborative.</h3>
       </div>
-      <div className="work_container">
-        <div className="work">
+      <div className={styles.work_container}>
+        <div className={styles.work}>
           <h2>Design</h2>
           <Image src="/samir.png" alt="samir" height={400} width={400}></Image>
           <p>
@@ -18,7 +20,7 @@ const Works = () => {
             <a href="asda">Read more...</a>
           </div>
         </div>
-        <div className="work">
+        <div className={styles.work}>
           <h2>Development</h2>
           <Image src="/samir.png" alt="samir" height={400} width={400}></Image>
           <p>
@@ -28,7 +30,7 @@ const Works = () => {
             <a href="asdas">Read more...</a>
           </div>
         </div>
-        <div className="work">
+        <div className={styles.work}>
           <h2>Marketing</h2>
           <Image src="/samir.png" alt="samir" height={400} width={400}></Image>
           <p>

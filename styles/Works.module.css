@@ -1,0 +1,18 @@
+.works{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    
+  }
+  .work {
+    flex-basis: 31%;
+    padding: 20px 12px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .work_container,
+.team_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-between;
+}
