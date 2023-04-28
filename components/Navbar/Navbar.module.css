@@ -46,7 +46,8 @@
 .rightFloat a {
   background: transparent;
   padding: 0.8rem;
-  display: flex;
+  display: flex; 
+  color: white;
   color: var(--color-light);
   font-size: larger;
 }

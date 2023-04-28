@@ -3,12 +3,12 @@ import Link from 'next/link'
 import {AiFillDribbbleCircle} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
-import {SiBloglovin} from 'react-icons/si'
-import {GrGallery} from 'react-icons/gr'
-import {GrProjects} from 'react-icons/gr'
+import {GiClockwork} from 'react-icons/gi'
+import {GiPhotoCamera} from 'react-icons/gi'
+import {CiRead} from 'react-icons/ci'
 
 
-SiBloglovin
+
 import styles from '../Navbar/Navbar.module.css';
 
 
@@ -33,14 +33,14 @@ const Navbar = () => {
       
       <div className={styles.rightFloat}>
       <Link href="/Blogs">
-      <a><SiBloglovin/></a>
+      <a><CiRead/></a>
         {/* <a>.B.</a> */}
       </Link>
       <Link href="/Gallery">
-        <a><GrGallery/></a>
+        <a><GiPhotoCamera/></a>
       </Link>
       <Link href="/Projects">
-      <a><GrProjects/></a>
+      <a><GiClockwork/></a>
       </Link>
       </div>
       </div>
