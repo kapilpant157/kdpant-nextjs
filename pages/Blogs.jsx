@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
-import Sidebar from '../components/Sidebar';
+// import Sidebar from '../components/Sidebar';
 import styles from '../styles/Blogs.module.css'
 import { AiTwotoneCalendar } from 'react-icons/ai'
 
@@ -40,7 +40,7 @@ const Blogs = () => {
                       <h5>{author}</h5>
 
                     </div>
-                    <div className={styles.post}>
+                    <div className={styles.tag}>
                       <Link href={`/blog/${slug}`} >
                         <a>
                           Read More...
@@ -49,13 +49,21 @@ const Blogs = () => {
                     </div>
                   </div>
                 </div>
+
+
+               
+
+
+
+
               </div>
+
+
             );
           })}
         </div>
-        <div className={styles.sidebar}>
-          <Sidebar />
-        </div>
+
+        
 
       </div>
     </>

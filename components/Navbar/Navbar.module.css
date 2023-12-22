@@ -17,7 +17,7 @@
 
 .navbartwo a {
   float: left;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -32,11 +32,12 @@
 }
 .links {
   float: right;
+  color: blue;
 }
 
 .links li a {
   display: inline-flex;
-  color: white;
+  /* color: white; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,12 +45,11 @@
 
 .leftFloat a,
 .rightFloat a {
+  font-size: larger;
   background: transparent;
   padding: 0.8rem;
   display: flex; 
-  color: white;
   color: var(--color-light);
-  font-size: larger;
 }
 .leftFloat a:hover,
 .rightFloat a:hover {

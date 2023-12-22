@@ -15,7 +15,7 @@ import styles from '../Navbar/Navbar.module.css';
 const Navbar = () => {
   return (
     <nav>
-      <div className="atrapezoid">
+      <div className="nab">
       <a href="#"><h1>Kapil.</h1></a>
       </div>
 <div className={styles.links}>
@@ -33,14 +33,18 @@ const Navbar = () => {
       
       <div className={styles.rightFloat}>
       <Link href="/Blogs">
-      <a><CiRead/></a>
-        {/* <a>.B.</a> */}
+      {/* <a><CiRead/></a> */}
+        <a>.B.</a>
       </Link>
       <Link href="/Gallery">
-        <a><GiPhotoCamera/></a>
+        {/* <a><GiPhotoCamera/></a> */}
+        <a>.G.</a>
+
       </Link>
       <Link href="/Projects">
-      <a><GiClockwork/></a>
+      {/* <a><GiClockwork/></a> */}
+      <a>.P.</a>
+
       </Link>
       </div>
       </div>
