@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar/Navbar'
 import Works from '../components/Works'
+import Footer from "../components/Footer";
 // import Myteam from '../components/Myteam'
 
 export default function Home() {
@@ -24,8 +25,11 @@ export default function Home() {
       {/* <Works/> */}
       {/* <Myteam/> */}
      {/* <Contact/> */}
-      <Footer/>
+
       <Navbar/>
+      </div>
+      <div className={styles.footer}> 
+        <Footer/>
       </div>
     </>
   )

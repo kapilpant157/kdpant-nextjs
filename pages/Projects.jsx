@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Navbartwo from "../components/Navbar/Navbartwo";
+import Footer from "../components/Footer";
 
 const images = [
   {
@@ -119,7 +120,9 @@ function Projects() {
           </div>
         ))}
       </div>
-      
+      <div className="footer"> 
+        <Footer/>
+      </div>
     </div>
 </section>
   );

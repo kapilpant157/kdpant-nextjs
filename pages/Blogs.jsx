@@ -6,6 +6,8 @@ import Navbartwo from "../components/Navbar/Navbartwo";
 // import Sidebar from '../components/Sidebar';
 import styles from '../styles/Blogs.module.css'
 import { AiTwotoneCalendar } from 'react-icons/ai'
+import Footer from "../components/Footer";
+
 
 const Blogs = () => {
   const [items] = useState(Bloglist);
@@ -57,9 +59,9 @@ const Blogs = () => {
             );
           })}
         </div>
-
-
-
+      </div>
+      <div className="footer"> 
+        <Footer/>
       </div>
     </>
   );

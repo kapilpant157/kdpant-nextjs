@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbartwo from '../components/Navbar/Navbartwo';
 import styles from '../styles/Gallery.module.css';
 import Gallerylist from "../components/gallerylist";
+import Footer from "../components/Footer";
 const Gallery = () => {
   const [items] = useState(Gallerylist);
   return (
@@ -32,6 +33,10 @@ const Gallery = () => {
       </div> 
 
       <Navbartwo/>
+      <div className="footer"> 
+        <Footer/>
+      </div>
+
     </>
   )
 }
