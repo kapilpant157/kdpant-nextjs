@@ -9,9 +9,9 @@ const Sidebar = () => {
         <span className="sidebarTitle">ABOUT ME</span>
         <Image src="/swyambhu.png" alt="Kapil Dev Pant" height={200} width={250}></Image>
         <p>
-          Words are merely insufficient expressing the depth of emotions. So it
-          is a place where i try to find some words that can describe how
-          unworthy i am in this everlasting time. Emotional parts are supposed to be either ignored or taken as joke. They are not intended to hurt others.
+          Words are merely insufficient expressing the depth of emotions. So it is a place where i try
+           to find some words that can describe how unworthy i am in this everlasting time. Emotional 
+           parts are supposed to be either ignored or taken as joke. They are not intended to hurt others.
         </p>
       </div>
       <div className="sidebarItem">
