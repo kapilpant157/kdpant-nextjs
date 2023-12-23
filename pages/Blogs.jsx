@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
 // import Sidebar from '../components/Sidebar';
-import styles from '../styles/Blogs.module.css'
+import styles from '../styles/Newblog.module.css'
 import { AiTwotoneCalendar } from 'react-icons/ai'
 
 const Blogs = () => {
@@ -15,32 +15,34 @@ const Blogs = () => {
       <Navbartwo />
       <div className={styles.home}>
 
-        <div className={styles.container}>
+        <div className={styles.category}>
           {items.map((elem) => {
             const {
               category, Heading, image, author_image, alter, author, author_alter, date, description, slug,
             } = elem;
             return (
 
-              <div className={styles.card} key={elem.id}>
-                <div className={styles.header}>
+              <div className={styles.blogcard} key={elem.id}>
+                <div className={styles.photo}>
                   <Image src={image} alt={alter} height={310} width={480}></Image>
                 </div>
+
                 <div className={styles.body}>
                   <div className={styles.row}><a> <AiTwotoneCalendar /></a>
                     <small>{date}</small>
-                    <span className={styles.tag}> {category}</span></div>
-                  <h4>{Heading}</h4>
-                  <p>{description}</p>
-                  <div className={styles.bar}></div>
+                    <div className={styles.tags}> {category}</div></div>
+                  <div className={styles.heading}>
+                    <h4>{Heading}</h4>
+                  </div>
+                  <div className={styles.description}>
+                    <p>{description}</p>
+                  </div>
                   <div className={styles.user}>
-                    {/* <Image src={author_image} alt={author_alter} height={40} width={40}
-                    ></Image> */}
-                    <div className={styles.userinfo}>
+                    {/* <Image src={authorimage} alt={author_alter} height={40} width={40}></Image> */}
+                    <div className={styles.author}>
                       <h5>{author}</h5>
-
                     </div>
-                    <div className={styles.tag}>
+                    <div className={styles.readmore}>
                       <Link href={`/blog/${slug}`} >
                         <a>
                           Read More...
@@ -50,20 +52,13 @@ const Blogs = () => {
                   </div>
                 </div>
 
-
-               
-
-
-
-
               </div>
-
 
             );
           })}
         </div>
 
-        
+
 
       </div>
     </>

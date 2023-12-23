@@ -2,7 +2,7 @@ const Bloglist = [
     {
         id: 1,
         category: "Coding", 
-        Heading: "How did I first started my Coding?", 
+        Heading: "Started Coding Life", 
         image: "/firstsite.png",
         alter:"First site", 
         author_image: "/gump.jpg", 
@@ -16,7 +16,7 @@ const Bloglist = [
     {
         id: 2,
         category: "Trekk", 
-        Heading:"How we lost in Shivapuri National Park?", 
+        Heading:"Lost in Shivapuri NP", 
         image: "/shivapuri.jpg",
         alter:"first blog",
         author: "Kapil pant", 
@@ -28,10 +28,10 @@ const Bloglist = [
     },{
         id: 3,
         category: "Cyber security", 
-        Heading: "How you stay safe from attackers ?", 
+        Heading: "Stay safe from attackers", 
         image: "/shivapuri.jpg",
         alter:"first blog", 
-        author_image: "/gump.jpg", 
+        authorimage: "/gump.jpg", 
         author: "Kapil pant", 
         date:  "march 2", 
         meta: "short description about this blog in 2 lines", 
@@ -41,7 +41,7 @@ const Bloglist = [
     {
         id: 4,
         category: "Cyber security", 
-        Heading: "How you stay safe from attackers ?", 
+        Heading: "Stay safe from attackers", 
         image: "/shivapuri.jpg",
         alter:"first blog", 
         author_image: "/gump.jpg", 
