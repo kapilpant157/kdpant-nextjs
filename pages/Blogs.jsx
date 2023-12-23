@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Bloglist from "../components/Bloglist";
 import Navbartwo from "../components/Navbar/Navbartwo";
 // import Sidebar from '../components/Sidebar';
-import styles from '../styles/Newblog.module.css'
+import styles from '../styles/Blogs.module.css'
 import { AiTwotoneCalendar } from 'react-icons/ai'
 
 const Blogs = () => {
