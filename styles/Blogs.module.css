@@ -83,17 +83,16 @@
         border-radius: 5px;
         /* border: 2px solid red; */
         margin: 3rem;
+        padding-top: 20px;
     }
-
 
     .blogcard {
         display: flex;
         flex-direction: column;
-        margin-top: 8%;
+
     }
     .photo {
         width: auto;
-
     }
     .heading {
         text-transform: uppercase;
