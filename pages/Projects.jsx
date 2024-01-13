@@ -63,6 +63,16 @@ const images = [
     caption:
       "ON Sale!!! ON Sale!!! ON Sale!!! , project is suitable for Construction company, Build on Reactjs makes it super fast and fully responsice. If interested in buying in affordable price, you know what to do, just send a message. ",
     link: "https://youtu.be/f3Qv4qa1w0A",
+  },
+  {
+    id: 7,
+    imageName: "/construction.jpg",
+    tag: "Completed Projects",
+    title: "Pant Family Tree",
+    type: "Construction",
+    caption:
+      "this is upcomming project that is based on genealogy  ",
+    link: "#",
   }
 ];
 
