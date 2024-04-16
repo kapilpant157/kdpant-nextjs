@@ -29,6 +29,7 @@ export default function Home() {
         <Works/>
         <Contact/>
         <Navbar />
+        <Footer/>
       </div>
 
     </>
