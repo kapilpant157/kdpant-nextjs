@@ -1,21 +1,35 @@
-.works{
+.works {
   border: 2px solid red;
   margin-right: 9%;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    
-  }
-  .work {
-    flex-basis: 31%;
-    padding: 20px 12px;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  
-  .work_container,
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+
+}
+
+.work {
+  flex-basis: 31%;
+  padding: 20px 12px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.work_container,
 .team_container {
   display: flex;
   flex-direction: row;
   margin-top: 5%;
   justify-content: space-between;
+}
+.button {
+  margin: 5px;
+  padding: 5px 10px;
+  color: rgb(219, 247, 247);
+  display: inline-flex;
+  border-radius: 5%;
+
+}
+
+.button:hover {
+  background-color: rgb(1, 105, 97);
 }

@@ -36,7 +36,7 @@ const Bloglist = [
         date:  "march 2", 
         meta: "short description about this blog in 2 lines", 
         description: " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        slug:"a-day-hike-to-shivapuri-National-park"
+        slug:"a-day-hike-to-shivapuri-National-par"
     },
     {
         id: 4,
@@ -50,7 +50,21 @@ const Bloglist = [
         meta: "short description about this blog in 2 lines", 
         description: " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
         slug:"a-day-hike-to-shivapuri-National-park"
+    },
+    {
+        id: 5,
+        category: "Cyber security", 
+        Heading: "Stay safe from attackers", 
+        image: "/shivapuri.jpg",
+        alter:"first blog", 
+        authorimage: "/gump.jpg", 
+        author: "Kapil pant", 
+        date:  "march 9", 
+        meta: "short description about this blog in 2 lines", 
+        description: " asd",
+        slug:"a-day-hike-to-shivapuri-National-pk"
     }
-   
 ]
+
+    
 export default Bloglist;  
