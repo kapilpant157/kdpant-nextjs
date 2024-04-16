@@ -1,4 +1,6 @@
 .works{
+  border: 2px solid red;
+  margin-right: 9%;
     padding-top: 5rem;
     padding-bottom: 2rem;
     
@@ -9,6 +11,7 @@
     text-align: center;
     box-sizing: border-box;
   }
+  
   .work_container,
 .team_container {
   display: flex;

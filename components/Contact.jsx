@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from '../styles/Contact.module.css'
-import { FaTwitter } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import { BsSnapchat } from 'react-icons/bs'
@@ -32,35 +32,57 @@ function Contact(props) {
         </div>
         <div className={styles.right}>
           <div className={styles.form}>
-            <h2>Your Idea</h2>
+            <h2>Share Idea via</h2>
             <div className={styles.container}>
-              <div className={styles.icon}>
-              <Image src="/blue.png"  height={81} width={80} alt="jkh" />
-              <div className={styles.span}><FaTwitter/></div>
+
+              <div className={styles.row}>
+                <div className={styles.icon}>
+                  <Image src="/blue.png" height={80} width={80} alt="jkh" />
+                  <div className={styles.span}><FaLinkedin /></div>
+                </div>
+
+                <div className={styles.icon}>
+                  <Image src="/blue.png" height={81} width={80} alt="jkh" />
+                  <div className={styles.span}><FaTwitter /></div>
+                </div>
               </div>
-              <div className={styles.icon}>
-              <Image src="/red.png"  height={80} width={80} alt="jkh" />
-              <div className={styles.span}><FaYoutube/></div>
-                           
-              <Image src="/bluee.png"  height={80} width={80} alt="jkh" />
-              <div className={styles.span}><FaFacebook/></div>
-                            
-              <Image src="/pink.png"  height={80} width={80} alt="jkh" />
-              <div className={styles.span}><FaInstagram/></div>
-              </div>
-              <div className={styles.icon}>
-              <Image src="/yellow.png"  height={80} width={80} alt="jkh" />
-              <div className={styles.span}><BsSnapchat/></div>
-              
-              <Image src="/black.png"  height={80} width={80} alt="jkh" />
-              <div className={styles.span}><FaTiktok/></div></div>
 
 
+              <div className={styles.row}>
+
+                <div className={styles.icon}>
+                  <Image src="/red.png" height={80} width={80} alt="jkh" />
+                  <div className={styles.span}><FaYoutube /></div>
+                </div>
+
+
+                <div className={styles.icon}>
+                  <Image src="/bluee.png" height={80} width={80} alt="jkh" />
+                  <div className={styles.span}><FaFacebook /></div>
+                </div>
+
+                <div className={styles.icon}>
+                  <Image src="/pink.png" height={80} width={80} alt="jkh" />
+                  <div className={styles.span}><FaInstagram /></div>
+                </div>
+
+              </div>
+              <div className={styles.row}>
+              <div className={styles.icon}>
+                <Image src="/yellow.png" height={80} width={80} alt="jkh" />
+                <div className={styles.span}><BsSnapchat /></div>
+              </div>
+              <div className={styles.icon}>
+                <Image src="/black.png" height={80} width={80} alt="jkh" />
+                <div className={styles.span}><FaEnvelope /></div></div>
+                </div>
             </div>
+
           </div>
         </div>
       </div>
-    </section>
+
+    </section >
   );
 }
 

@@ -61,11 +61,19 @@ a {
 } */
 
 
+.button{
+  margin: 5px;
+  padding: 5px 10px;
+  color: rgb(219, 247, 247);
+  display: inline-flex;
+  border-radius: 5%;
 
-.btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
 }
+
+.button:hover{
+  background-color: rgb(1, 105, 97);
+}
+
 
 
 /* Navbar */
