@@ -13,7 +13,7 @@ const images = [
     type: "Charted Accountant",
     caption:
       "R. Pandey & Associates is a leading Accounting and Consulting Firm of Nepal offering a wide range of services in the field of Audit, Risk Advisory, Tax Advisory, M&A Advisory and Managed Services for National and Multinational Companies of all sizes.",
-    link: "https://rpanepal.vercel.app/",
+    link: "https://rpanepal.com.np/",
   },
   {
     id: 2,

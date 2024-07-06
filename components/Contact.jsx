@@ -16,19 +16,19 @@ function Contact(props) {
         <h2>Awesome Idea !!</h2>
       </div>
       <div className={styles.contact}>
-        <div className="contact-left">
+        <div className="contact-left borderr">
           <Image
-            src="/contact.png"
+            src="/kapill.png"
             alt="contact-kapildevpant"
-            height={450}
+            height={550}
             width={450}
           ></Image>
-          <div className={styles.info}>
+          {/* <div className={styles.info}>
             <p>Don&apos;t let </p>
             <p>Idea stuck</p>
             <p>In mind</p>
             <h5>We are just a message away</h5>
-          </div>
+          </div> */}
         </div>
         <div className={styles.right}>
           <div className={styles.form}>

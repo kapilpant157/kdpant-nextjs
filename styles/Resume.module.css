@@ -1,0 +1,73 @@
+/* .container {
+  width: 100%;
+  border: solid 2px green;
+} */
+
+/* .row {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-template-areas: "links " "objective";
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.links {
+  border-right: dotted 2px yellow;
+  grid-area: links;
+  background-color: red;
+}
+.objective {
+  grid-area: objective;
+  background-color: rgb(194, 179, 46);
+}
+.education {
+  grid-area: education;
+  background-color: rgb(56, 53, 236);
+}
+.workexp {
+  grid-area: workexp;
+  background-color: rgb(188, 94, 216);
+}
+.trainings {
+  grid-area: trainings;
+  background-color: rgb(196, 119, 5);
+}
+.skills {
+  grid-area: skills;
+  background-color: rgb(105, 233, 169);
+}
+
+
+.timeline {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+
+
+.boxcontainer{
+
+  /* position: relative; */
+  width: 50%;
+  background: rgb(128, 143, 136);
+  border-radius:6px ;
+}
+.imgcontainer{
+position: absolute;
+width: 40px;
+border-radius: 50%;
+z-index: 10;
+
+}
+.textbox{
+  padding: 20px 30px;
+  background: #251f1f;
+  position:relative ;
+  border-radius:6px ;
+  font-size: 15px;
+}
