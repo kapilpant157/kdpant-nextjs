@@ -16,7 +16,7 @@ const Header = () => {
         <h6>Graphic Designer, Web(Designer, Developer), UX/UI Designer, Sportsman (Basketball, Table Tennis, Football, Cricket) drawing enthusiastic and counting </h6>
         
         <div className={styles.cta}>
-        <a href="./cv.pdf" download className={styles.btn}>Resume's History</a>
+        <a href="./cv.pdf" download className={styles.btn}>Resume&aposs History</a>
         <a href="#contact" className={styles.btn}>Download Resume </a>
       </div>
       </div>

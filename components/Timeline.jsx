@@ -22,7 +22,7 @@ const Timeline = () => {
           </p>
           <div className={styles.st}>
             <Link  href="#">
-              <a className={styles.button}>Resume's History</a>
+              <a className={styles.button}>Resumes&apos History</a>
             </Link>
             <a
               href="./kapil-dev-pant-cv.pdf"
