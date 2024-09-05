@@ -16,7 +16,7 @@ const Timeline = () => {
         <div className={styles.box}>
           <h1 className={styles.title}>Kapil</h1>
           <p className={styles.des}>
-            Welcome to my portfolio. This portolio is currently in development
+            Welcome to my portfolio. This-portolio is currently in development
             Wel come to my portfolio. This portolio is currently in development
             mode and most of the contents are not upto date.
           </p>
